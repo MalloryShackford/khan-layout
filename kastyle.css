@@ -1,0 +1,134 @@
+* {
+     box-sizing: border-box;
+}
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+}
+
+nav, header {
+  float:left;
+  width: 100%;
+  font-family: "roboto", sans-serif;
+}
+li {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "roboto", sans-serif;
+}
+select {
+  float:left;
+  color: blue;
+  text-decoration: none;
+  font-weight: bolder;
+  border: none;
+  width: 6%;
+  margin: 10px 10px 10px 40px;
+}
+
+.search{
+  color: blue;
+  float: left;
+  font-weight: bolder;
+  background: lightgray;
+  margin: 5px 10px 10px 10px;
+  border-style: none;
+  padding: 10px 0 10px 10px;
+}
+
+.ka, .kalogo {
+  float:left;
+  width: 35%;
+  margin-left: 150px;
+}
+
+.right li a {
+  float:left;
+  width: 10%;
+  text-decoration: none;
+  font-family: "roboto", sans-serif;
+  font-weight: bolder;
+}
+a:link{
+  color:blue;
+}
+
+a:visited {
+  color:blue;
+}
+
+.khanimage {
+  float:left;
+  width: 50%;
+  max-width:50%;
+}
+img {
+  max-width: 50%;
+  margin: 20px 0 0 175px;
+}
+
+.mission {
+  float: left;
+  width: 50%;
+}
+
+.class {
+  float: left;
+  margin: 50px 0  0 150px;
+  max-width: 45%;
+  font-size: 40px;
+  word-wrap: break-word;
+}
+
+.edu {
+  float:left;
+  max-width: 50%;
+  word-wrap: break-word;
+  font-family: "roboto", sans-serif;
+  font-weight: bold;
+  margin: 20px 0 0 150px;
+}
+
+
+button {
+  float: left;
+  background: blue;
+  color: white;
+  list-style-type: none;
+  margin: 10px 10px 0 0;
+  padding: 3px;
+  font-family: "roboto", sans-serif;
+  border-radius: 10%;
+}
+.left {
+  float: left;
+  margin-left: 150px;
+}
+
+.bone {
+  float: left;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "roboto", sans-serif;
+}
+.bone:link {
+  color:white;
+}
+.bone:visited {
+  color:white;
+}
